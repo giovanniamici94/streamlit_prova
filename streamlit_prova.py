@@ -1,10 +1,16 @@
 '''
-Run on terminal: streamlit run code.py, then a webpage will appear
-where you can re-run from there each time you update the Py code.
+Streamlit tutorial
 Check streamlit website > Streamlit library > API reference
 to get a bunch of functionalities such as those here below
-Note: if you need to install anything, it might be necessary to put such
-package in this very folder.
+If you have any Py dependencies, include them in requirements.txt (on github repo)
+
+RUN FROM LOCAL CODE
+Run on terminal: streamlit run code.py, then a webpage will appear.
+
+RUN FROM GITHUB CODE
+Go to: Streamlit website > my apps > create app (put this github repository)
+
+Once the app is opened in the website, interactively play with the options provided.
 '''
 
 import streamlit as st
